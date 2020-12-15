@@ -1,0 +1,44 @@
+Task0:
+The runtime complexity of accessing the first text 
+and the last text is O(1), constant time. The space 
+complexity is also O(1), constant time.
+----
+
+Task1:
+The runtime complexity of finding all unique phone numbers
+with my algorithm is O(n), linear time. The space complexity
+is also O(n), linear time.
+---
+
+Task2:
+The runtime complexity for finding the phone number with the
+longest time on the phone is O(n). This is because the for loop
+to add all the phone numbers to the dictionary is O(n), and the
+max() function is also O(n). The dictionary lookup is O(n).
+
+The space complexity is O(n).
+---
+
+Task3:
+The runtime complexity for Task3 is O(n) for the first for loop,
+O(n) for the second for loop, O(n log n) for sorting the area codes,
+and O(n) for printing the area codes. There were no nested for loops
+so the overall time complexity is O(n log n), since the sorting is
+possibly the most complex operation.
+
+The space complexity is O(n log n) because of sorting.
+---
+
+Task4:
+The runtime complexity for get_phone_numbers() is O(n). The runtime
+complexity of get_possible_telemarketers_from_calls is also O(n), with
+the set lookup being O(1), from https://wiki.python.org/moin/TimeComplexity.
+The for loop to cross check the texts data set is alst O(n) with
+the set lookup as O(1). The last for loop is O(n) for printing the numbers,
+and the sorting function is O(n log n). So, the overall time complexity
+is O(n log n, since the sorting is the most complex operation.
+
+The space complexity is O(n log n) because of sorting.
+
+
+
