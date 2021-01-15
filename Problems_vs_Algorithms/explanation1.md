@@ -15,3 +15,7 @@ number to the right.
 
 This function runs in O(log n) time, and it takes
 O(1) space.
+
+This function supports int and float types. It does not,
+however, support negative numbers because negative
+numbers do not have real square roots.
